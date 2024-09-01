@@ -1,0 +1,13 @@
+# Day 39: List Comprehensions
+
+def list_comprehensions():
+    # Creating a list of squares using list comprehension
+    squares = [x**2 for x in range(10)]
+    print("List of squares:", squares)
+
+    # Filtering even numbers using list comprehension
+    evens = [x for x in range(10) if x % 2 == 0]
+    print("List of even numbers:", evens)
+
+if __name__ == "__main__":
+    list_comprehensions()
